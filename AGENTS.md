@@ -28,6 +28,6 @@ When the student asks for a plan, give it in words and write no code until the s
 
 The student replaces the three lines below and adds a line each time they correct the assistant on the same point twice.
 
-- Question: (one sentence)
-- Data: (the file in `data/`, what one row is, and its source URL and access date)
-- Measured variable: (its column name and unit)
+- Question: Do near-infrared (1000–2500 nm) reflectance spectra of the *Venere* painting reconstruction show a spatially coherent difference across the painted surface that is consistent with the dammar varnish the data record says was applied to half of it?
+- Data: `data/venere.raw` + `venere.hdr` (ENVI cube, 410 lines × 384 samples × 288 bands, 896–2502 nm), with dark and white references `DARKREF_venere.*` and `WHITEREF_venere.*`. One line is one scan line of 384 pixels, each with a 288-band spectrum. Source: https://doi.org/10.5281/zenodo.8143550, accessed 2026-11-06.
+- Measured variable: raw detector signal (no column name; values in the cube), in counts (16-bit, 0–65535); converted in the notebook to reflectance (dimensionless) = (sample − dark) / (white − dark).

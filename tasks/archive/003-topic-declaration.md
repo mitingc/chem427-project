@@ -1,8 +1,8 @@
 # 003: Topic declaration
 
-- **Status:** active
-- **Created:** YYYY-MM-DD
-- **Updated:** YYYY-MM-DD
+- **Status:** done
+- **Created:** 2026-11-06
+- **Updated:** 2026-11-22
 - **Due:** 2026-11-08, 11:59 pm
 
 ## Goal
@@ -58,4 +58,10 @@ The Canvas entry is in. Close this task after it is, with the URL you submitted 
 
 ## Progress log
 
+- 2026-11-06: Added the six Zenodo data files to `data/` as downloaded, and `topic.ipynb`, in commit 337eb1f (https://github.com/mitingc/chem427-project/commit/337eb1f). The notebook in that commit is an empty, 0-byte file.
+- 2026-11-12: Filled in `topic.ipynb` (first markdown cell with the project, source and access date; one code cell that loads `data/venere.raw` and prints 410 lines, 384 samples, 288 bands, unit: detector counts) in commit 2686b3d (https://github.com/mitingc/chem427-project/commit/2686b3d).
+- 2026-11-22: Checked that the MD5 checksums of all six data files match those listed on the Zenodo record. Filled in the "This project" lines in `AGENTS.md`.
+
 ## Outcome
+
+Topic declaration submitted on Canvas. Commit URL submitted: https://github.com/mitingc/chem427-project/commit/2686b3d0587db0f51d210a5d4b5e3d5ca94b89ef

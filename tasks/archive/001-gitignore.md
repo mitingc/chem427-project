@@ -1,8 +1,8 @@
 # 001: Write `.gitignore`
 
-- **Status:** active
-- **Created:** YYYY-MM-DD
-- **Updated:** YYYY-MM-DD
+- **Status:** done
+- **Created:** 2026-11-06
+- **Updated:** 2026-11-22
 - **Due:** 2026-11-01, before task 002
 
 ## Goal
@@ -66,4 +66,9 @@ If your data cannot be stored on GitHub, because they are too large or their lic
 
 ## Progress log
 
+- 2026-11-06: Wrote `.gitignore` with the lines from the steps and pushed it in commit 539bc06 (https://github.com/mitingc/chem427-project/commit/539bc06), together with the environment files from task 002.
+- 2026-11-22: Checked that `git check-ignore` reports `.venv` as ignored by `.gitignore` line 3, and that `git ls-files` lists no file under `.venv/`.
+
 ## Outcome
+
+`.gitignore` is pushed (commit 539bc06, 2026-11-06), and `.venv/` is not tracked after `uv sync`. Done five days after the 2026-11-01 due date.

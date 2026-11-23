@@ -1,8 +1,8 @@
 # 002: Copy the course environment
 
-- **Status:** active
-- **Created:** YYYY-MM-DD
-- **Updated:** YYYY-MM-DD
+- **Status:** done
+- **Created:** 2026-11-06
+- **Updated:** 2026-11-22
 - **Due:** 2026-11-01, after task 001
 
 ## Goal
@@ -78,4 +78,9 @@ The cell in step 4 prints Python 3.14 and the same package versions as a session
 
 ## Progress log
 
+- 2026-11-06: Copied `pyproject.toml`, `uv.lock` and `.python-version` from the course clone, ran `uv sync`, and pushed the three files in commit 539bc06 (https://github.com/mitingc/chem427-project/commit/539bc06).
+- 2026-11-22: Checked that all three files are byte-for-byte identical to the course repository's copies, and that the project's `.venv` runs Python 3.14.7. `topic.ipynb` ends with a versions cell (NumPy 2.5.3, pandas 3.0.6, Matplotlib 3.11.2).
+
 ## Outcome
+
+The project builds the same environment as the course repository from its own `pyproject.toml`, `uv.lock` and `.python-version` (commit 539bc06, 2026-11-06). Done five days after the 2026-11-01 due date.
